@@ -5,7 +5,7 @@ from app.models import *
 class BrandSerializers(serializers.ModelSerializer):
     class Meta:
         model = Brand
-        fields = "__all__"
+        field = "__all__"
     
 
 class CarSerializers(serializers.ModelSerializer):
